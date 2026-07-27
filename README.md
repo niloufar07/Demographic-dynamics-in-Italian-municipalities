@@ -1,6 +1,6 @@
 
 # Italian Municipalities Population & Geohazard Analysis Pipeline
-
+To access inputs, please visit: The data and codes are openly available for researchers and policymakers at Figshare:https://figshare.com/articles/dataset/Population_Trend_in_Italy/32647404, https://doi.org/10.6084/m9.figshare.32647404
 This repository contains a machine learning pipeline utilizing **PyCaret** to analyze and model population dynamics and geohazard risk indexes across 7,800+ Italian municipalities (*comuni*). The solution processes complex geospatial, remote sensing (EGMS/INGV landslide data), and historical census datasets to evaluate and predict demographic and structural trends.
 
 ## 📌 Project Overview
