@@ -64,7 +64,7 @@ Using PyCaret's zero-knowledge pipeline initialization, models are evaluated via
 | Random Forest Regressor (`rf`) | 6.2392 | 84.4834 | 9.1248 | 0.7936 | 0.7047 | 1.5396 | 71.8850 |
 | Decision Tree Regressor (`dt`) | 9.3613 | 174.2733 | 13.1730 | 0.5687 | 0.8833 | 2.4371 | 0.9150 |
 | Dummy Regressor (`dummy`) | 15.1344 | 405.8020 | 20.1019 | -0.0014 | 1.8267 | 1.2286 | 0.0680 |
-
+after removing the feature SOC_04 the new R*2 from the best model is 0,7701
 ### Key Takeaways
 *   **Top Performer**: The `LightGBM` framework yields superior performance with an **$R^2$ score of 0.8123**, outperforming ensemble models and classical algorithms.
 *   **Computational Efficiency**: `LightGBM` finalized training execution in a swift **2.45 seconds**, whereas the standard `Random Forest Regressor` required **71.88 seconds** to resolve similar metric optimization boundaries.
